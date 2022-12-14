@@ -10,12 +10,12 @@ theme: "grusp_conf"
 
 # Site / OG
 type: website
-slug: sfday
-edition: 2021
-title: "sfday 2020"
-description: "sfday 2020, online conference"
+slug: phpday
+edition: 2023
+title: "phpday 2023"
+description: "phpday 2023, International PHP Conference in Italy"
 #   separate keywords by comma, no spaces
-keywords: conference,software conference,symfony,php,tech conference
+keywords: conference,software conference,symfony,laravel,php,tech conference
 author: GrUSP
 language: en
 timezone: 'Europe/Rome'
@@ -25,9 +25,9 @@ open_graph:
   # si può sostituire con il logo della conferenza (`img/conference-logo.png`)
   image: 'img/grusp-logo-full.png'
 twitter:
-  twitter_id: rubydayit
+  twitter_id: phpday
 fb:
-  fb_id: rubydayit
+  fb_id: phpday
 
 # Breadcrumbs
 breadcrumb:
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2021.rubyday.it/
+url: https://2023.phpday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
