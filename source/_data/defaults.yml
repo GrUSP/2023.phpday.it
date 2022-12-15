@@ -24,11 +24,11 @@ conference:
   contact_email: "phpday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "phpday 2022"
+  title: "phpday 2023"
   city: "Verona"
-  date: 2022-05-18T09:00+02:00
+  date: 2023-05-18T09:00+02:00
   # Use the next field to override the date in the hero
-  hero_date_text: 18 and 19 May 2022
+  hero_date_text: 18 and 19 May 2023
   countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
