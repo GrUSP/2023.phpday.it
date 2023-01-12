@@ -28,6 +28,10 @@ silver:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
+  sponsor2:
+    name: "Switcho"
+    logo_filename: "switcho.svg"
+    site_url: "https://www.switcho.it/"
 #   sponsor4:
 #     name: "Madisoft"
 #     logo_filename: "madisoft.svg"
