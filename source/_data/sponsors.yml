@@ -32,11 +32,15 @@ silver:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
-  sponsor4:
+  sponsor2:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor3:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor2:
+  sponsor4:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
