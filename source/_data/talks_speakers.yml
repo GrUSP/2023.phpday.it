@@ -79,7 +79,7 @@ speaker_8: &enricozimuel
   speaker_name: Enrico Zimuel
   speaker_pic_filename: enrico-zimuel.png
   speaker_role: "Principal Software Engineer @ Elastic"
-  speaker_bio: "Programmer since 1996. Principal Software Engineer at Elastic. Open source contributor and co-author of many PHP projects. Core committee member of PHP-FIG. TEDx and international speaker in 120+ conferences. Author of programming books, such as "Sviluppare in PHP 7" by Tecniche Nuove. Adjunct Professor at University of Turin and ITS ICT Piemonte of Torino (Italy)."
+  speaker_bio: "Programmer since 1996. Principal Software Engineer at Elastic. Open source contributor and co-author of many PHP projects. Core committee member of PHP-FIG. TEDx and international speaker in 120+ conferences. Author of programming books, such as \"Sviluppare in PHP 7\" by Tecniche Nuove. Adjunct Professor at University of Turin and ITS ICT Piemonte of Torino (Italy)."
   speaker_twitter_url: "https://twitter.com/ezimuel"
   speaker_github_url: "https://github.com/ezimuel"
   speaker_linkedin_url: "https://www.linkedin.com/in/ezimuel/"
