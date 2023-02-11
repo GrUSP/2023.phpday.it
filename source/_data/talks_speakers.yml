@@ -7,6 +7,7 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 speaker_1: &markbaker
   speaker_in_speaker_lists: true
   speaker_name: Mark Baker
+  speaker_slug: mark-baker
   speaker_pic_filename: mark-baker.png
   speaker_role: "Senior Software Developer at Recharge.com"
   speaker_bio: "Mark is a Senior Software Engineer on the Payment and Risk team at Recharge.com, based in Amsterdam. He has contributed to a number of open source projects, including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for PHPSpreadsheet (formerly PHPExcel), and a coordinator and developer on the PHPOffice library suite (PHPWord, PHPPowerPoint, PHPProject and PHPVisio). His particular interests include PHP integration with office suites, Datastructures, Geodata and GIS."
@@ -16,6 +17,7 @@ speaker_1: &markbaker
 speaker_2: &georgepeterbanyard
   speaker_in_speaker_lists: true
   speaker_name: George Peter Banyard
+  speaker_slug: george-peter-banyard
   speaker_pic_filename: george-peter-banyard.png
   speaker_role: "Part time PHP core developper funded by The PHP Foundation"
   speaker_bio: "George Peter Banyard is funded to works part-time as a PHP core developer by The PHP Foundation. They also maintain the PHP documentation and are the lead maintainer of the French translation of it."
@@ -25,6 +27,7 @@ speaker_2: &georgepeterbanyard
 speaker_3: &sebastianbergmann
   speaker_in_speaker_lists: true
   speaker_name: Sebastian Bergmann
+  speaker_slug: sebastian-bergmann
   speaker_pic_filename: sebastian-bergmann.png
   speaker_role: "Co-Founder, thePHP.cc"
   speaker_bio: "Sebastian Bergmann has believed in Open Source from day one. He has a university degree in computer science, and has created the industry-leading testing tool PHPUnit, which has played a vital role in professionalizing software development with PHP. He shares his comprehensive experiences in publications and at conferences. As Co-Founder and Principal Consultant of The PHP Consulting Company (thePHP.cc), Sebastian helps his clients to develop software successfully. In his free time, he works on PHPUnit, likes board games, and really enjoys making fancy ice cream."
@@ -34,6 +37,7 @@ speaker_3: &sebastianbergmann
 speaker_4: &arneblankerts
   speaker_in_speaker_lists: true
   speaker_name: Arne Blankerts
+  speaker_slug: arne-blankerts
   speaker_pic_filename: arne-blankerts.png
   speaker_role: "Co-Founder thePHP.cc"
   speaker_bio: "Arne Blankerts has created solutions far ahead of the times already years ago. He helps to create sustainable software and tailored infrastructures, and finds security issues with magic intuition. In his free time, he reads fantasy novels and likes to cook."
@@ -43,6 +47,7 @@ speaker_4: &arneblankerts
 speaker_5: &davideborsatto
   speaker_in_speaker_lists: true
   speaker_name: Davide Borsatto
+  speaker_slug: davide-borsatto
   speaker_pic_filename: davide-borsatto.png
   speaker_role: "Technical Leader @ Reverse"
   speaker_bio: "Davide is a technical leader and senior backend developer who's been working with PHP for more than 15 years and attended his first phpday back in 2009. He does a ton of code reviews and generally tries to help others grow. He is passionate about all the nice things: domain-driven design, static analysis, good food, and videogames."
@@ -52,6 +57,7 @@ speaker_5: &davideborsatto
 speaker_6: &femkebuijs
   speaker_in_speaker_lists: true
   speaker_name: Femke Buijs
+  speaker_slug: femke-buijs
   speaker_pic_filename: femke-buijs.png
   speaker_role: "Software Engineer @ Mollie"
   speaker_bio: "When Femke was young (younger), she did not know anything about programming. She was an avid PC gamer when her mother allowed her too, but was never introduced into the wonders of what was behind those fascinating interfaces. Never really knowing what she wanted to do, but having a knack for maths and economics, she chose a study in finance. What started off as a draining career in finance, continued as a dream job in engineering. These days she works in the FinTech industry as a PHP backend developer."
@@ -61,6 +67,7 @@ speaker_6: &femkebuijs
 speaker_7: &ivolukac
   speaker_in_speaker_lists: true
   speaker_name: Ivo Lukač
+  speaker_slug: ivo-lukac
   speaker_pic_filename: ivo-lukac.png
   speaker_role: "Managing partner @ Netgen"
   speaker_bio: "20 years of experience in the web industry. Participated in various web projects across the globe as an engineer, architect, project manager, consultant. Regularly speaking at conferences and organizing Web Summer Camp"
@@ -70,6 +77,7 @@ speaker_7: &ivolukac
 speaker_8: &magalimilbergue
   speaker_in_speaker_lists: true
   speaker_name: Magali Milbergue
+  speaker_slug: magali-milbergue
   speaker_pic_filename: magali-milbergue.png
   speaker_role: "Web creator and educator @ self-employed"
   speaker_bio: "After a decade in social work, Magali decided to change course and became a web developer. She tries to find a delicate balance between the technical aspects of the job (fun !), the creativity (fun too !) and trying to follow her ethics and change the culture of the industry (the less fun aspects of it anyway) by being an advocate and an activist. "
@@ -79,6 +87,7 @@ speaker_8: &magalimilbergue
 speaker_9: &ondrejmirtes
   speaker_in_speaker_lists: true
   speaker_name: Ondřej Mirtes
+  speaker_slug: ondrej-mirtes
   speaker_pic_filename: ondrej-mirtes.png
   speaker_role: "Developer @ PHPStan"
   speaker_bio: "Ondřej is a full-time open-source software developer. He likes pointing out mistakes in other people's code so much that he created PHPStan, a popular static analyzer that focuses on finding bugs in code without running it. He shares his experience at conferences across the world, offers his expertise as a consultant, and organizes trainings."
@@ -88,6 +97,7 @@ speaker_9: &ondrejmirtes
 speaker_10: &jamestitcumb
   speaker_in_speaker_lists: true
   speaker_name: James Titcumb
+  speaker_slug: james-titcumb
   speaker_pic_filename: james-titcumb.png
   speaker_role: "CTO @ Roave"
   speaker_bio: "James is a consultant, trainer and developer at Roave, working in software for over 20 years. His goal is to improve the quality of software products that teams deliver."
@@ -97,6 +107,7 @@ speaker_10: &jamestitcumb
 speaker_11: &tomasvotruba
   speaker_in_speaker_lists: true
   speaker_name: Tomas Votruba
+  speaker_slug: tomas-votruba
   speaker_pic_filename: tomas-votruba.png
   speaker_role: "CEO @ Rector"
   speaker_bio: "already in the other talk"
@@ -106,6 +117,7 @@ speaker_11: &tomasvotruba
 speaker_12: &sabinewojcieszak
   speaker_in_speaker_lists: true
   speaker_name: Sabine Wojcieszak
+  speaker_slug: sabine-wojcieszak
   speaker_pic_filename: sabine-wojcieszak.png
   speaker_role: "Enthusiastic Agile & DevOps Enabler @ getNextIT "
   speaker_bio: "Sabine Wojcieszak is the Enthusiastic Agile & DevOps Enabler at getNextIT in Kiel. She coaches companies, executives, teams, and individuals on the way to better collaboration with more agility and fun - all for mutual success. For her, it is essential to end the \"great silence\" in companies and finally talk openly, appreciatively, and constructively about the things that are important and necessary. The approaches from the New Work concept and agile methods are an integral part of her work. She is convinced that success can only be achieved with and through the people in the system and that companies must put their employees back at the center. Values and attitude as well as the ability to take responsibility play a crucial role in this for her. Sabine is a regular speaker at international conferences and writes blogs and articles on these topics. As a speaker coach, she supports newcomers in achieving more visibility and telling a story that sticks to the heads of the audience. In the Moinworld e.V. network, Sabine is also a mentor for Women in Tech."
@@ -115,6 +127,7 @@ speaker_12: &sabinewojcieszak
 speaker_13: &enricozimuel
   speaker_in_speaker_lists: true
   speaker_name: Enrico Zimuel
+  speaker_slug: enrico-zimuel
   speaker_pic_filename: enrico-zimuel.png
   speaker_role: "Principal Software Engineer @ Elastic"
   speaker_bio: "Programmer since 1996. Principal Software Engineer at Elastic. Open source contributor and co-author of many PHP projects. Core committee member of PHP-FIG. TEDx and international speaker in 120+ conferences. Author of programming books, such as \"Sviluppare in PHP 7\" by Tecniche Nuove. Adjunct Professor at University of Turin and ITS ICT Piemonte of Torino (Italy)."
@@ -124,6 +137,7 @@ speaker_13: &enricozimuel
 speaker_14: &claudiozizza
   speaker_in_speaker_lists: true
   speaker_name: Claudio Zizza
+  speaker_slug: claudio-zizza
   speaker_pic_filename: claudio-zizza.png
   speaker_role: "Developer"
   speaker_bio: "Still being human even after over 20 years of coding. Speaker, advicer & complexity tamer. PHP, .NET, JS, Go, HR and more. I'm part of the Doctrine team and organizer of the PHPUGKA."
