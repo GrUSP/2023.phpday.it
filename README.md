@@ -1119,7 +1119,6 @@ La prima sezione è puramente di utilità: ci serve a definire gli speakers e da
 speaker_1: &luca_guidi
   speaker_in_speaker_lists: true
   speaker_name: Luca Guidi
-  speaker_slug: luca-guidi
   speaker_pic_filename: lucaguidi.png
   speaker_role: Author of Hanami
   speaker_bio: "[testo libero e/o HTML]"
