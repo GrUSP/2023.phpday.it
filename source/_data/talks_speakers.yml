@@ -67,7 +67,16 @@ speaker_7: &ivolukac
   speaker_twitter_url: "https://twitter.com/ilukac"
   speaker_github_url: ""
   speaker_linkedin_url: "https://www.linkedin.com/in/ivolukac/"
-speaker_8: &magalimilbergue
+speaker_8: &alexandermakarov
+  speaker_in_speaker_lists: true
+  speaker_name: Alexander Makarov
+  speaker_pic_filename: alexander-makarov.jpg
+  speaker_role: "CEO @ ASAPIRL, Lead @ Yii framework"
+  speaker_bio: "Maintainer of Yii PHP framework for more than 10 years, member of program committee of many conferences. Experienced developer/team lead who experienced whole technology generations for more than 15 years."
+  speaker_twitter_url: "https://twitter.com/sam_dark"
+  speaker_github_url: "https://github.com/samdark"
+  speaker_linkedin_url: "https://www.linkedin.com/in/makarov/"
+speaker_9: &magalimilbergue
   speaker_in_speaker_lists: true
   speaker_name: Magali Milbergue
   speaker_pic_filename: magali-milbergue.png
@@ -76,7 +85,7 @@ speaker_8: &magalimilbergue
   speaker_twitter_url: "https://twitter.com/MagaliMilbergue"
   speaker_github_url: ""
   speaker_linkedin_url: "https://www.linkedin.com/in/magali-milbergue/"
-speaker_9: &ondrejmirtes
+speaker_10: &ondrejmirtes
   speaker_in_speaker_lists: true
   speaker_name: Ondřej Mirtes
   speaker_pic_filename: ondrej-mirtes.png
@@ -85,7 +94,7 @@ speaker_9: &ondrejmirtes
   speaker_twitter_url: "https://twitter.com/OndrejMirtes"
   speaker_github_url: "https://github.com/ondrejmirtes"
   speaker_linkedin_url: ""
-speaker_10: &jamestitcumb
+speaker_11: &jamestitcumb
   speaker_in_speaker_lists: true
   speaker_name: James Titcumb
   speaker_pic_filename: james-titcumb.png
@@ -94,7 +103,7 @@ speaker_10: &jamestitcumb
   speaker_twitter_url: "https://twitter.com/asgrim"
   speaker_github_url: "https://github.com/asgrim"
   speaker_linkedin_url: "https://www.linkedin.com/in/jamestitcumb/"
-speaker_11: &tomasvotruba
+speaker_12: &tomasvotruba
   speaker_in_speaker_lists: true
   speaker_name: Tomas Votruba
   speaker_pic_filename: tomas-votruba.png
@@ -103,7 +112,7 @@ speaker_11: &tomasvotruba
   speaker_twitter_url: "https://twitter.com/votrubaT"
   speaker_github_url: "https://github.com/TomasVotruba"
   speaker_linkedin_url: "https://www.linkedin.com/in/tomas-votruba/"
-speaker_12: &sabinewojcieszak
+speaker_13: &sabinewojcieszak
   speaker_in_speaker_lists: true
   speaker_name: Sabine Wojcieszak
   speaker_pic_filename: sabine-wojcieszak.png
@@ -112,7 +121,7 @@ speaker_12: &sabinewojcieszak
   speaker_twitter_url: "https://twitter.com/SabineBendixen"
   speaker_github_url: ""
   speaker_linkedin_url: "https://www.linkedin.com/in/sabinewojcieszak/"
-speaker_13: &enricozimuel
+speaker_14: &enricozimuel
   speaker_in_speaker_lists: true
   speaker_name: Enrico Zimuel
   speaker_pic_filename: enrico-zimuel.png
@@ -121,7 +130,7 @@ speaker_13: &enricozimuel
   speaker_twitter_url: "https://twitter.com/ezimuel"
   speaker_github_url: "https://github.com/ezimuel"
   speaker_linkedin_url: "https://www.linkedin.com/in/ezimuel/"
-speaker_14: &claudiozizza
+speaker_15: &claudiozizza
   speaker_in_speaker_lists: true
   speaker_name: Claudio Zizza
   speaker_pic_filename: claudio-zizza.png
@@ -139,13 +148,14 @@ speakers:
   speaker_5: *davideborsatto
   speaker_6: *femkebuijs
   speaker_7: *ivolukac
-  speaker_8: *magalimilbergue
-  speaker_9: *ondrejmirtes
-  speaker_10: *jamestitcumb
-  speaker_11: *tomasvotruba
-  speaker_12: *sabinewojcieszak
-  speaker_13: *enricozimuel
-  speaker_14: *claudiozizza
+  speaker_8: *alexandermakarov
+  speaker_9: *magalimilbergue
+  speaker_10: *ondrejmirtes
+  speaker_11: *jamestitcumb
+  speaker_12: *tomasvotruba
+  speaker_13: *sabinewojcieszak
+  speaker_14: *enricozimuel
+  speaker_15: *claudiozizza
 
 tracks:
   track_1: &track_1
@@ -271,6 +281,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *ivolukac
+      theory-of-programming-packaging-principles:
+        item_type: "talk"
+        track: *track_1
+        #start_datetime:
+        #end_datetime:
+        talk_title: "Theory of programming: packaging principles"
+        talk_description: "Everyone knows SOLID programming principles, the essence of modern object-oriented programming. But there are additional higher-level principles coined by Robert C. Martin that help to determine and measure isolation boundaries between packages, modules, microservices etc. In this talk you’ll get into principles of package cohesion and coupling. We’ll highlight the shortcomings, tradeoffs and key points of usage and dive into D-metrics. After the talk you’ll add more tools that help you write better code and design better systems overall."
+        talk_video_url:
+        speakers:
+          speaker_1: *alexandermakarov
       the-invisible-elephant-in-the-room:
         item_type: "keynote"
         track: *track_1
