@@ -70,7 +70,7 @@ speaker_7: &ivolukac
 speaker_8: &alexandermakarov
   speaker_in_speaker_lists: true
   speaker_name: Alexander Makarov
-  speaker_pic_filename: alexander-makarov.jpg
+  speaker_pic_filename: alexander-makarov.png
   speaker_role: "CEO @ ASAPIRL, Lead @ Yii framework"
   speaker_bio: "Maintainer of Yii PHP framework for more than 10 years, member of program committee of many conferences. Experienced developer/team lead who experienced whole technology generations for more than 15 years."
   speaker_twitter_url: "https://twitter.com/sam_dark"
