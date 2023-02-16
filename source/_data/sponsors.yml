@@ -41,14 +41,18 @@ silver:
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
   sponsor3:
+    name: "rector"
+    logo_filename: "rector.svg"
+    site_url: "https://getrector.com/"
+  sponsor4:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor4:
+  sponsor5:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
-  sponsor5:
+  sponsor6:
     name: "The PHP Consulting Company"
     logo_filename: "thephpcc.svg"
     site_url: "https://thephp.cc"
