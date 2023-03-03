@@ -28,44 +28,66 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
+  sponsor1:
+    name: "Axelerant"
+    logo_filename: "axelerant.svg"
+    site_url: "https://www.axelerant.it/"
+  sponsor2:
     name: "elastic"
     logo_filename: "elastic.svg"
     site_url: "https://www.elastic.co/"
-  sponsor1:
+  sponsor3:
     name: "extera"
     logo_filename: "extera.svg"
     site_url: "https://www.extera.com/"
-  sponsor2:
+  sponsor4:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
-  sponsor3:
+  sponsor5:
+    name: "Immobiliare"
+    logo_filename: "immobiliare.svg"
+    site_url: "https://labs.immobiliare.it/"
+  sponsor6:
+    name: "KanbanBOX"
+    logo_filename: "kanbanbox.svg"
+    site_url: "https://www.kanbanbox.com/"
+  sponsor7:
     name: "rector"
     logo_filename: "rector.svg"
     site_url: "https://getrector.com/"
-  sponsor4:
+  sponsor8:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor5:
+  sponsor9:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
-  sponsor6:
+  sponsor10:
     name: "The PHP Consulting Company"
     logo_filename: "thephpcc.svg"
     site_url: "https://thephp.cc"
+  sponsor11:
+    name: "weroad"
+    logo_filename: "weroad.svg"
+    site_url: "https://career.weroad.travel/"
 
 #   sponsor6:
 #     name: "SiteGround"
 #     logo_filename: "siteground.png"
 #     site_url: "https://www.siteground.com/"
 bronze:
+  sponsor3:
+    name: "Netgen Layouts"
+    logo_filename: "NETGEN LAYOUTS.svg"
+    site_url: "https://netgen.io/layouts"
   sponsor4:
     name: "Sticker Mule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/uses/laptop-stickers"
+
+
 # # diversity:
 #   sponsor1:
 #     name: "S"
