@@ -185,16 +185,16 @@ days:
       check-in:
         item_type: "service"
         start_datetime: 2023-05-18T08:30+02:00
-        end_datetime: 2023-05-18T09:30+02:00
+        end_datetime: 2023-05-18T09:15+02:00
         talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
-        start_datetime: 2023-05-18T09:30+02:00
-        end_datetime: 2023-05-18T09:45+02:00
+        start_datetime: 2023-05-18T09:15+02:00
+        end_datetime: 2023-05-18T09:30+02:00
         talk_title: "Opening by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2023-05-18T11:00+02:00
+        start_datetime: 2023-05-18T10:45+02:00
         end_datetime: 2023-05-18T11:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
@@ -214,7 +214,7 @@ days:
         item_type: "service"
         start_datetime: 2023-05-18T16:30+02:00
         end_datetime: 2023-05-18T17:00+02:00
-        talk_title: "Lunch break"
+        talk_title: "Coffee break"
         service_icon: "coffee"
       happy-hour:
         item_type: "service"
@@ -256,8 +256,8 @@ days:
       phpstan-how-the-sausage-is-made:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-18T09:45+02:00
-        end_datetime: 2023-05-18T10:30+02:00
+        start_datetime: 2023-05-18T09:30+02:00
+        end_datetime: 2023-05-18T10:15+02:00
         talk_title: "PHPStan: How the Sausage Is Made"
         talk_description: "Ondřej Mirtes develops PHPStan, a popular open-source static analyser, as his full-time job. In this talk he'll share all the aspects that go into the project: development, prioritization of issues and ideas, community management, making money, and marketing. Most of the takeaways from the talk apply to any project, not just the open-source ones. It will give the attendees a few ideas how they can improve their daily work too."
         talk_video_url:
@@ -276,8 +276,8 @@ days:
       how-to-generate-unit-tests-with-ai-and-ast:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T10:30+02:00
-        end_datetime: 2023-05-18T11:00+02:00
+        start_datetime: 2023-05-18T10:15+02:00
+        end_datetime: 2023-05-18T10:45+02:00
         talk_title: "How to Generate Unit tests with AI and AST"
         talk_description: "When you work with code that was written by someone else (or you 6 month ago), the biggest help with any change are tests. They help us verify if the code we change still works. But how can we work with code that has 0 tests? We could write them? But that could take months and give us painful boring days in the office. What about generating them from existing code? With magic mix of AST, pre-processing and GPT-3, we could save thousands of hours. I'll show you, how to get there."
         talk_video_url:
@@ -312,12 +312,12 @@ days:
       check-in:
         item_type: "service"
         start_datetime: 2023-05-19T08:30+02:00
-        end_datetime: 2023-05-19T09:30+02:00
+        end_datetime: 2023-05-19T09:15+02:00
         talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
-        start_datetime: 2023-05-19T09:30+02:00
-        end_datetime: 2023-05-19T09:45+02:00
+        start_datetime: 2023-05-19T09:15+02:00
+        end_datetime: 2023-05-19T09:30+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
@@ -326,7 +326,7 @@ days:
         talk_title: "Closing by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2023-05-19T11:00+02:00
+        start_datetime: 2023-05-19T10:45+02:00
         end_datetime: 2023-05-19T11:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
@@ -346,7 +346,7 @@ days:
         item_type: "service"
         start_datetime: 2023-05-19T16:30+02:00
         end_datetime: 2023-05-19T17:00+02:00
-        talk_title: "Lunch break"
+        talk_title: "Coffee break"
         service_icon: "coffee"
 
       an-elderly-software-developer-long-journey-through-technology:
@@ -392,8 +392,8 @@ days:
       theory-of-programming-packaging-principles:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T10:30+02:00
-        end_datetime: 2023-05-19T11:00+02:00
+        start_datetime: 2023-05-19T10:15+02:00
+        end_datetime: 2023-05-19T10:45+02:00
         talk_title: "Theory of programming: packaging principles"
         talk_description: "Everyone knows SOLID programming principles, the essence of modern object-oriented programming. But there are additional higher-level principles coined by Robert C. Martin that help to determine and measure isolation boundaries between packages, modules, microservices etc. In this talk you’ll get into principles of package cohesion and coupling. We’ll highlight the shortcomings, tradeoffs and key points of usage and dive into D-metrics. After the talk you’ll add more tools that help you write better code and design better systems overall."
         talk_video_url:
@@ -402,8 +402,8 @@ days:
       the-invisible-elephant-in-the-room:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-19T09:45+02:00
-        end_datetime: 2023-05-19T10:30+02:00
+        start_datetime: 2023-05-19T09:30+02:00
+        end_datetime: 2023-05-19T10:15+02:00
         talk_title: "The invisible elephant in the room"
         talk_description: "We've been talking about diversity and inclusion in our industry for some time now and most of us have at least a general idea of the issues at stake. But we sometimes forget about one of the aspects of diversity: disability. Not disability at a whole though, I'd say there has been quite an interest about accessibility and how to make our products  better for our disabled users. But we almost never talk about disability  in our industry.  Many of us tech workers have disabilities  and/or chronic illnesses that impact our daily lives. Yet, most of the  tech industry can't seem to see us. It's always \"on friday we go  running\" or \"we play soccer as a team\" or \"our team building week will  make us do many physical stuff !\"... And disabled people get left  behind. And it's even worst when our disabilities are invisible, as our  coworkers and managers have even more issues to empathize with what we  are living (the little bits we actually share about it).  So  today I'd like to take some of your time to talk about the invisible  elephant in the room : disability and how so many of our work culture  makes the environment toxic for disabled workers."
         talk_video_url:
