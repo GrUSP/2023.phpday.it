@@ -53,30 +53,30 @@ silver:
     logo_filename: "kanbanbox.svg"
     site_url: "https://www.kanbanbox.com/"
   sponsor7:
+    name: "mollie"
+    logo_filename: "mollie.svg"
+    site_url: "https://jobs.mollie.com/en/"
+  sponsor8:
     name: "rector"
     logo_filename: "rector.svg"
     site_url: "https://getrector.com/"
-  sponsor8:
+  sponsor9:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor9:
+  sponsor10:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
-  sponsor10:
+  sponsor11:
     name: "The PHP Consulting Company"
     logo_filename: "thephpcc.svg"
     site_url: "https://thephp.cc"
-  sponsor11:
+  sponsor12:
     name: "weroad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
 
-#   sponsor6:
-#     name: "SiteGround"
-#     logo_filename: "siteground.png"
-#     site_url: "https://www.siteground.com/"
 bronze:
   sponsor3:
     name: "Netgen Layouts"
