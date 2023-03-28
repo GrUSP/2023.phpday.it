@@ -139,6 +139,14 @@ speaker_15: &claudiozizza
   speaker_twitter_url: "https://twitter.com/SenseException"
   speaker_github_url: "https://github.com/SenseException"
   speaker_linkedin_url: ""
+speaker_16: &zuzanakunckova
+  speaker_in_speaker_lists: true
+  speaker_name: Zuzana Kunckova
+  speaker_pic_filename: zuzana-kunckova.png
+  speaker_role: "MASTER OF CEREMONIES - Larabelles founder"
+  speaker_bio: ""
+  speaker_linkedin_url: ""
+  is_mc: true
 
 speakers:
   speaker_1: *markbaker
@@ -156,6 +164,7 @@ speakers:
   speaker_13: *sabinewojcieszak
   speaker_14: *enricozimuel
   speaker_15: *claudiozizza
+  speaker_16: *zuzanakunckova
 
 tracks:
   track_1: &track_1
