@@ -22,7 +22,7 @@ gold:
   sponsor2:
     name: "Fido"
     logo_filename: "fido.svg"
-    site_url: "www.fido.id"
+    site_url: "https://www.fido.id"
   sponsor3:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
