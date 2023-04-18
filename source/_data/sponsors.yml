@@ -9,21 +9,29 @@ sponsors_block_title: "Thanks for supporting us!"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/people/"
 gold:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor1:
+  sponsor2:
+    name: "Fido"
+    logo_filename: "fido.svg"
+    site_url: "www.fido.id"
+  sponsor3:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor2:
+  sponsor4:
+    name: "Manychat"
+    logo_filename: "manychat.svg"
+    site_url: "https://manychat.com/"
+  sponsor5:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
