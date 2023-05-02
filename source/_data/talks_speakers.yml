@@ -108,7 +108,9 @@ speaker_12: &tomasvotruba
   speaker_name: Tomas Votruba
   speaker_pic_filename: tomas-votruba.png
   speaker_role: "CEO @ Rector"
-  speaker_bio: "already in the other talk"
+  speaker_bio: "Nothing excites me more than good old legacy code. A code that can be improved light-years in a matter of few-days work. Not tedious and repetitive work. But with intelligent modern automated almost-futuristic tools.
+My biggest passion is to innovate in the area of 'impossible' and help developers to be happier heart at their daily work.
+If you're happy, you enjoy your work and life more, don't you?"
   speaker_twitter_url: "https://twitter.com/votrubaT"
   speaker_github_url: "https://github.com/TomasVotruba"
   speaker_linkedin_url: "https://www.linkedin.com/in/tomas-votruba/"
@@ -232,36 +234,6 @@ days:
         talk_title: "Happy Hour"
         service_icon: "glass"
 
-      php-8.2-just-upgrade-and-go:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-18T11:15+02:00
-        end_datetime: 2023-05-18T12:15+02:00
-        talk_title: "PHP 8.2 - Just upgrade and go?"
-        talk_description: "Life could be so easy: Just roll out the latest PHP version on all systems, immediately benefit from the new features and otherwise get back to implementing new requirements. In reality, however, it's not that simple: Who has time to read through all the changes in PHP and check for possible side effects in their own software? But does that really have to be the case? In this talk, we'll explore what better approaches there are to prepare for an upgrade, what tools might help, and how you can almost completely avoid the stress of a version bump."
-        talk_video_url:
-        speakers:
-          speaker_1: *arneblankerts
-      stories-from-a-career-dropout:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-18T17:00+02:00
-        end_datetime: 2023-05-18T17:30+02:00
-        talk_title: "Stories from a career dropout"
-        talk_description: "Your career can feel like it is taking all the energy you have inside of you. You’re dreading the next working day, and you keep wondering if this is what you are going to do for the rest of your life. But what if it isn't? What if you find a job that makes you feel like you are on top of the world, all while being productive as well? During my talk I will share the lessons I have learned after changing my career, what the points are you need to take into consideration when making such a decision, and how this actually resembles climbing a mountain very well."
-        talk_video_url:
-        speakers:
-          speaker_1: *femkebuijs
-      learn-to-appreciate-legacy:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-18T17:30+02:00
-        end_datetime: 2023-05-18T18:00+02:00
-        talk_title: "Learn to appreciate legacy"
-        talk_description: "There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”. But there is way more legacy code running than non-legacy out there in the world. Developers like starting from scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that new code will do a better job."
-        talk_video_url:
-        speakers:
-          speaker_1: *ivolukac
       phpstan-how-the-sausage-is-made:
         item_type: "keynote"
         track: *track_1
@@ -272,16 +244,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *ondrejmirtes
-      minimum-viable-phpipeline:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-18T15:30+02:00
-        end_datetime: 2023-05-18T16:30+02:00
-        talk_title: "Minimum Viable PHPipeline"
-        talk_description: "The honeymoon period is over, and your company or customer is demanding stability in your PHP applications. I'm going to talk about some essential strategies to set up Continuous Integration and Delivery pipelines to help maintain, and - over time - improve the quality of the software your team delivers. You'll learn about some of the tools necessary to set these pipelines up, basic design of CI pipelines, and some key strategies for automating deployments. I'll show you how having a solid CI/CD pipeline means that you can still deliver software fast, but with confidence that your deliverables are steadily getting better."
-        talk_video_url:
-        speakers:
-          speaker_1: *jamestitcumb
       how-to-generate-unit-tests-with-ai-and-ast:
         item_type: "talk"
         track: *track_1
@@ -292,6 +254,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *tomasvotruba
+      php-8.2-just-upgrade-and-go:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-05-18T11:15+02:00
+        end_datetime: 2023-05-18T12:15+02:00
+        talk_title: "PHP 8.2 - Just upgrade and go?"
+        talk_description: "Life could be so easy: Just roll out the latest PHP version on all systems, immediately benefit from the new features and otherwise get back to implementing new requirements. In reality, however, it's not that simple: Who has time to read through all the changes in PHP and check for possible side effects in their own software? But does that really have to be the case? In this talk, we'll explore what better approaches there are to prepare for an upgrade, what tools might help, and how you can almost completely avoid the stress of a version bump."
+        talk_video_url:
+        speakers:
+          speaker_1: *arneblankerts
       monitoring-a-php-application-with-opentelemetry:
         item_type: "talk"
         track: *track_1
@@ -312,6 +284,36 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *claudiozizza
+      minimum-viable-phpipeline:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-05-18T15:30+02:00
+        end_datetime: 2023-05-18T16:30+02:00
+        talk_title: "Minimum Viable PHPipeline"
+        talk_description: "The honeymoon period is over, and your company or customer is demanding stability in your PHP applications. I'm going to talk about some essential strategies to set up Continuous Integration and Delivery pipelines to help maintain, and - over time - improve the quality of the software your team delivers. You'll learn about some of the tools necessary to set these pipelines up, basic design of CI pipelines, and some key strategies for automating deployments. I'll show you how having a solid CI/CD pipeline means that you can still deliver software fast, but with confidence that your deliverables are steadily getting better."
+        talk_video_url:
+        speakers:
+          speaker_1: *jamestitcumb
+      stories-from-a-career-dropout:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-05-18T17:00+02:00
+        end_datetime: 2023-05-18T17:30+02:00
+        talk_title: "Stories from a career dropout"
+        talk_description: "Your career can feel like it is taking all the energy you have inside of you. You’re dreading the next working day, and you keep wondering if this is what you are going to do for the rest of your life. But what if it isn't? What if you find a job that makes you feel like you are on top of the world, all while being productive as well? During my talk I will share the lessons I have learned after changing my career, what the points are you need to take into consideration when making such a decision, and how this actually resembles climbing a mountain very well."
+        talk_video_url:
+        speakers:
+          speaker_1: *femkebuijs
+      learn-to-appreciate-legacy:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-05-18T17:30+02:00
+        end_datetime: 2023-05-18T18:00+02:00
+        talk_title: "Learn to appreciate legacy"
+        talk_description: "There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”. But there is way more legacy code running than non-legacy out there in the world. Developers like starting from scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that new code will do a better job."
+        talk_video_url:
+        speakers:
+          speaker_1: *ivolukac
 
   day_2:
     date: 2023-05-19T09:30+02:00
@@ -358,26 +360,26 @@ days:
         talk_title: "Coffee break"
         service_icon: "coffee"
 
-      an-elderly-software-developer-long-journey-through-technology:
+      the-invisible-elephant-in-the-room:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-19T17:00+02:00
-        end_datetime: 2023-05-19T17:45+02:00
-        talk_title: "An Elderly Software Developer’s Long Journey through Technology"
-        talk_description: "Forty years in Software development is a long time; thirty-five years writing open source software is a long time; nearly thirty years writing software for the WorldWideWeb is a long time. You don't write software for that long without making mistakes, and without learning a few lessons along the way. So follow me on a high-speed summary of his life in software and open source development; some of the advances in technology that have occurred in that period; and some of the lessons that I've learned in that time."
+        start_datetime: 2023-05-19T09:30+02:00
+        end_datetime: 2023-05-19T10:15+02:00
+        talk_title: "The invisible elephant in the room"
+        talk_description: "We've been talking about diversity and inclusion in our industry for some time now and most of us have at least a general idea of the issues at stake. But we sometimes forget about one of the aspects of diversity: disability. Not disability at a whole though, I'd say there has been quite an interest about accessibility and how to make our products  better for our disabled users. But we almost never talk about disability  in our industry.  Many of us tech workers have disabilities  and/or chronic illnesses that impact our daily lives. Yet, most of the  tech industry can't seem to see us. It's always \"on friday we go  running\" or \"we play soccer as a team\" or \"our team building week will  make us do many physical stuff !\"... And disabled people get left  behind. And it's even worst when our disabilities are invisible, as our  coworkers and managers have even more issues to empathize with what we  are living (the little bits we actually share about it).  So  today I'd like to take some of your time to talk about the invisible  elephant in the room : disability and how so many of our work culture  makes the environment toxic for disabled workers."
         talk_video_url:
         speakers:
-          speaker_1: *markbaker
-      php-type-system-dissected:
+          speaker_1: *magalimilbergue
+      theory-of-programming-packaging-principles:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T15:30+02:00
-        end_datetime: 2023-05-19T16:30+02:00
-        talk_title: "PHP's type system dissected"
-        talk_description: "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation? In this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system. "
+        start_datetime: 2023-05-19T10:15+02:00
+        end_datetime: 2023-05-19T10:45+02:00
+        talk_title: "Theory of programming: packaging principles"
+        talk_description: "Everyone knows SOLID programming principles, the essence of modern object-oriented programming. But there are additional higher-level principles coined by Robert C. Martin that help to determine and measure isolation boundaries between packages, modules, microservices etc. In this talk you’ll get into principles of package cohesion and coupling. We’ll highlight the shortcomings, tradeoffs and key points of usage and dive into D-metrics. After the talk you’ll add more tools that help you write better code and design better systems overall."
         talk_video_url:
         speakers:
-          speaker_1: *georgepeterbanyard
+          speaker_1: *alexandermakarov
       phpunit-10:
         item_type: "talk"
         track: *track_1
@@ -398,26 +400,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *davideborsatto
-      theory-of-programming-packaging-principles:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-19T10:15+02:00
-        end_datetime: 2023-05-19T10:45+02:00
-        talk_title: "Theory of programming: packaging principles"
-        talk_description: "Everyone knows SOLID programming principles, the essence of modern object-oriented programming. But there are additional higher-level principles coined by Robert C. Martin that help to determine and measure isolation boundaries between packages, modules, microservices etc. In this talk you’ll get into principles of package cohesion and coupling. We’ll highlight the shortcomings, tradeoffs and key points of usage and dive into D-metrics. After the talk you’ll add more tools that help you write better code and design better systems overall."
-        talk_video_url:
-        speakers:
-          speaker_1: *alexandermakarov
-      the-invisible-elephant-in-the-room:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2023-05-19T09:30+02:00
-        end_datetime: 2023-05-19T10:15+02:00
-        talk_title: "The invisible elephant in the room"
-        talk_description: "We've been talking about diversity and inclusion in our industry for some time now and most of us have at least a general idea of the issues at stake. But we sometimes forget about one of the aspects of diversity: disability. Not disability at a whole though, I'd say there has been quite an interest about accessibility and how to make our products  better for our disabled users. But we almost never talk about disability  in our industry.  Many of us tech workers have disabilities  and/or chronic illnesses that impact our daily lives. Yet, most of the  tech industry can't seem to see us. It's always \"on friday we go  running\" or \"we play soccer as a team\" or \"our team building week will  make us do many physical stuff !\"... And disabled people get left  behind. And it's even worst when our disabilities are invisible, as our  coworkers and managers have even more issues to empathize with what we  are living (the little bits we actually share about it).  So  today I'd like to take some of your time to talk about the invisible  elephant in the room : disability and how so many of our work culture  makes the environment toxic for disabled workers."
-        talk_video_url:
-        speakers:
-          speaker_1: *magalimilbergue
       managers-under-scrutiny-5-ways-to-kill-your-team-productivity-unintentionally:
         item_type: "talk"
         track: *track_1
@@ -428,3 +410,23 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *sabinewojcieszak
+      php-type-system-dissected:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-05-19T15:30+02:00
+        end_datetime: 2023-05-19T16:30+02:00
+        talk_title: "PHP's type system dissected"
+        talk_description: "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation? In this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system. "
+        talk_video_url:
+        speakers:
+          speaker_1: *georgepeterbanyard
+      an-elderly-software-developer-long-journey-through-technology:
+        item_type: "keynote"
+        track: *track_1
+        start_datetime: 2023-05-19T17:00+02:00
+        end_datetime: 2023-05-19T17:45+02:00
+        talk_title: "An Elderly Software Developer’s Long Journey through Technology"
+        talk_description: "Forty years in Software development is a long time; thirty-five years writing open source software is a long time; nearly thirty years writing software for the WorldWideWeb is a long time. You don't write software for that long without making mistakes, and without learning a few lessons along the way. So follow me on a high-speed summary of his life in software and open source development; some of the advances in technology that have occurred in that period; and some of the lessons that I've learned in that time."
+        talk_video_url:
+        speakers:
+          speaker_1: *markbaker
