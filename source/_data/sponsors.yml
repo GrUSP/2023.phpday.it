@@ -77,18 +77,22 @@ silver:
     logo_filename: "reverse.svg"
     site_url: "https://reverse.hr/"
   sponsor10:
+    name: "shopware"
+    logo_filename: "shopware.svg"
+    site_url: "https://www.shopware.com/en/"
+  sponsor11:
     name: "Spreaker"
     logo_filename: "spreaker.svg"
     site_url: "https://www.spreaker.com?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
-  sponsor11:
+  sponsor12:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it/"
-  sponsor12:
+  sponsor13:
     name: "The PHP Consulting Company"
     logo_filename: "thephpcc.svg"
     site_url: "https://thephp.cc"
-  sponsor13:
+  sponsor14:
     name: "weroad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
