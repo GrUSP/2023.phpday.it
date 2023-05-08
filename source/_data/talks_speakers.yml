@@ -103,17 +103,15 @@ speaker_11: &jamestitcumb
   speaker_twitter_url: "https://twitter.com/asgrim"
   speaker_github_url: "https://github.com/asgrim"
   speaker_linkedin_url: "https://www.linkedin.com/in/jamestitcumb/"
-speaker_12: &tomasvotruba
-  speaker_in_speaker_lists: true
-  speaker_name: Tomas Votruba
-  speaker_pic_filename: tomas-votruba.png
-  speaker_role: "CEO @ Rector"
-  speaker_bio: "Nothing excites me more than good old legacy code. A code that can be improved light-years in a matter of few-days work. Not tedious and repetitive work. But with intelligent modern automated almost-futuristic tools.
-My biggest passion is to innovate in the area of 'impossible' and help developers to be happier heart at their daily work.
-If you're happy, you enjoy your work and life more, don't you?"
-  speaker_twitter_url: "https://twitter.com/votrubaT"
-  speaker_github_url: "https://github.com/TomasVotruba"
-  speaker_linkedin_url: "https://www.linkedin.com/in/tomas-votruba/"
+speaker_12: &TBD
+  speaker_in_speaker_lists: false
+  speaker_name:
+  speaker_pic_filename:
+  speaker_role: ""
+  speaker_bio: ""
+  speaker_twitter_url: ""
+  speaker_github_url: ""
+  speaker_linkedin_url: ""
 speaker_13: &sabinewojcieszak
   speaker_in_speaker_lists: true
   speaker_name: Sabine Wojcieszak
@@ -162,7 +160,7 @@ speakers:
   speaker_9: *magalimilbergue
   speaker_10: *ondrejmirtes
   speaker_11: *jamestitcumb
-  speaker_12: *tomasvotruba
+  # speaker_12: *TBD
   speaker_13: *sabinewojcieszak
   speaker_14: *enricozimuel
   speaker_15: *claudiozizza
@@ -196,37 +194,42 @@ days:
       check-in:
         item_type: "service"
         start_datetime: 2023-05-18T08:30+02:00
-        end_datetime: 2023-05-18T09:15+02:00
+        end_datetime: 2023-05-18T09:30+02:00
         talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
-        start_datetime: 2023-05-18T09:15+02:00
-        end_datetime: 2023-05-18T09:30+02:00
+        start_datetime: 2023-05-18T09:30+02:00
+        end_datetime: 2023-05-18T09:45+02:00
         talk_title: "Opening by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2023-05-18T10:45+02:00
-        end_datetime: 2023-05-18T11:15+02:00
+        start_datetime: 2023-05-18T11:00+02:00
+        end_datetime: 2023-05-18T11:30+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch-break:
         item_type: "service"
-        start_datetime: 2023-05-18T13:15+02:00
-        end_datetime: 2023-05-18T14:15+02:00
+        start_datetime: 2023-05-18T13:10+02:00
+        end_datetime: 2023-05-18T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       lightning:
         item_type: "service"
-        start_datetime: 2023-05-18T14:15+02:00
-        end_datetime: 2023-05-18T14:30+02:00
+        start_datetime: 2023-05-18T14:20+02:00
+        end_datetime: 2023-05-18T14:40+02:00
         talk_title: "Lightning talks"
         service_icon: "bolt"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2023-05-18T16:30+02:00
-        end_datetime: 2023-05-18T17:00+02:00
+        start_datetime: 2023-05-18T16:20+02:00
+        end_datetime: 2023-05-18T16:50+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2023-05-18T17:50+02:00
+        end_datetime: 2023-05-18T18:00+02:00
+        talk_title: "See you tomorrow!"
       happy-hour:
         item_type: "service"
         start_datetime: 2023-05-18T18:00+02:00
@@ -237,28 +240,28 @@ days:
       phpstan-how-the-sausage-is-made:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-18T09:30+02:00
-        end_datetime: 2023-05-18T10:15+02:00
+        start_datetime: 2023-05-18T09:45+02:00
+        end_datetime: 2023-05-18T10:30+02:00
         talk_title: "PHPStan: How the Sausage Is Made"
         talk_description: "Ondřej Mirtes develops PHPStan, a popular open-source static analyser, as his full-time job. In this talk he'll share all the aspects that go into the project: development, prioritization of issues and ideas, community management, making money, and marketing. Most of the takeaways from the talk apply to any project, not just the open-source ones. It will give the attendees a few ideas how they can improve their daily work too."
         talk_video_url:
         speakers:
           speaker_1: *ondrejmirtes
-      how-to-generate-unit-tests-with-ai-and-ast:
+      TBD:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T10:15+02:00
-        end_datetime: 2023-05-18T10:45+02:00
-        talk_title: "How to Generate Unit tests with AI and AST"
-        talk_description: "When you work with code that was written by someone else (or you 6 month ago), the biggest help with any change are tests. They help us verify if the code we change still works. But how can we work with code that has 0 tests? We could write them? But that could take months and give us painful boring days in the office. What about generating them from existing code? With magic mix of AST, pre-processing and GPT-3, we could save thousands of hours. I'll show you, how to get there."
+        start_datetime: 2023-05-18T10:30+02:00
+        end_datetime: 2023-05-18T11:00+02:00
+        talk_title: "TBD"
+        talk_description: ""
         talk_video_url:
         speakers:
-          speaker_1: *tomasvotruba
+          speaker_1: *TBD
       php-8.2-just-upgrade-and-go:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T11:15+02:00
-        end_datetime: 2023-05-18T12:15+02:00
+        start_datetime: 2023-05-18T11:30+02:00
+        end_datetime: 2023-05-18T12:20+02:00
         talk_title: "PHP 8.2 - Just upgrade and go?"
         talk_description: "Life could be so easy: Just roll out the latest PHP version on all systems, immediately benefit from the new features and otherwise get back to implementing new requirements. In reality, however, it's not that simple: Who has time to read through all the changes in PHP and check for possible side effects in their own software? But does that really have to be the case? In this talk, we'll explore what better approaches there are to prepare for an upgrade, what tools might help, and how you can almost completely avoid the stress of a version bump."
         talk_video_url:
@@ -267,8 +270,8 @@ days:
       monitoring-a-php-application-with-opentelemetry:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T12:15+02:00
-        end_datetime: 2023-05-18T13:15+02:00
+        start_datetime: 2023-05-18T12:20+02:00
+        end_datetime: 2023-05-18T13:10+02:00
         talk_title: "Monitoring a PHP application with OpenTelemetry"
         talk_description: "Is your application observable? This is a question that starts to be relevant as the complexity of an application grows. To be able to monitor and observe what's going on at run-time is a crucial aspect for debugging issues and  improving performance. In this talk we will present how to monitor a PHP application using OpenTelemetry. OpenTelemetry is an open source project incubated by Cloud Native Computing Foundation that allows developers to use a common standard to observe and collect metrics  from any running applications. It provides a set of tools, APIs, and SDKs for many languages. In this talk we will present OpenTelemetry for PHP showing how to use the automatic and manual instrumentation tools for monitoring any application at runtime."
         talk_video_url:
@@ -277,7 +280,7 @@ days:
       schrodinger-sql-the-sql-inside-the-orm-builder-box:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T14:30+02:00
+        start_datetime: 2023-05-18T14:40+02:00
         end_datetime: 2023-05-18T15:30+02:00
         talk_title: "Schrödinger's SQL - The SQL inside the ORM/Builder box"
         talk_description: "Why should someone care about SQL, when a developer can abstract it into code? What about an ORMs? What impacts are there for a project? The database is out of sight, the database is out of mind, but this is where problems can start. This talk is about the importance of the database in a project and that SQL abstractions can add up to problems for your project. Know your database and the tools accessing it."
@@ -288,7 +291,7 @@ days:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-05-18T15:30+02:00
-        end_datetime: 2023-05-18T16:30+02:00
+        end_datetime: 2023-05-18T16:20+02:00
         talk_title: "Minimum Viable PHPipeline"
         talk_description: "The honeymoon period is over, and your company or customer is demanding stability in your PHP applications. I'm going to talk about some essential strategies to set up Continuous Integration and Delivery pipelines to help maintain, and - over time - improve the quality of the software your team delivers. You'll learn about some of the tools necessary to set these pipelines up, basic design of CI pipelines, and some key strategies for automating deployments. I'll show you how having a solid CI/CD pipeline means that you can still deliver software fast, but with confidence that your deliverables are steadily getting better."
         talk_video_url:
@@ -297,8 +300,8 @@ days:
       stories-from-a-career-dropout:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T17:00+02:00
-        end_datetime: 2023-05-18T17:30+02:00
+        start_datetime: 2023-05-18T16:50+02:00
+        end_datetime: 2023-05-18T17:20+02:00
         talk_title: "Stories from a career dropout"
         talk_description: "Your career can feel like it is taking all the energy you have inside of you. You’re dreading the next working day, and you keep wondering if this is what you are going to do for the rest of your life. But what if it isn't? What if you find a job that makes you feel like you are on top of the world, all while being productive as well? During my talk I will share the lessons I have learned after changing my career, what the points are you need to take into consideration when making such a decision, and how this actually resembles climbing a mountain very well."
         talk_video_url:
@@ -307,8 +310,8 @@ days:
       learn-to-appreciate-legacy:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-18T17:30+02:00
-        end_datetime: 2023-05-18T18:00+02:00
+        start_datetime: 2023-05-18T17:20+02:00
+        end_datetime: 2023-05-18T17:50+02:00
         talk_title: "Learn to appreciate legacy"
         talk_description: "There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”. But there is way more legacy code running than non-legacy out there in the world. Developers like starting from scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that new code will do a better job."
         talk_video_url:
@@ -323,48 +326,48 @@ days:
       check-in:
         item_type: "service"
         start_datetime: 2023-05-19T08:30+02:00
-        end_datetime: 2023-05-19T09:15+02:00
+        end_datetime: 2023-05-19T09:25+02:00
         talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
-        start_datetime: 2023-05-19T09:15+02:00
-        end_datetime: 2023-05-19T09:30+02:00
+        start_datetime: 2023-05-19T09:25+02:00
+        end_datetime: 2023-05-19T09:35+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2023-05-19T17:45+02:00
-        end_datetime: 2023-05-19T18:00+02:00
+        start_datetime: 2023-05-19T17:25+02:00
+        end_datetime: 2023-05-19T17:40+02:00
         talk_title: "Closing by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2023-05-19T10:45+02:00
-        end_datetime: 2023-05-19T11:15+02:00
+        start_datetime: 2023-05-19T10:50+02:00
+        end_datetime: 2023-05-19T11:20+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch-break:
         item_type: "service"
-        start_datetime: 2023-05-19T13:15+02:00
-        end_datetime: 2023-05-19T14:15+02:00
+        start_datetime: 2023-05-19T13:00+02:00
+        end_datetime: 2023-05-19T14:10+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       lightning:
         item_type: "service"
-        start_datetime: 2023-05-19T14:15+02:00
+        start_datetime: 2023-05-19T14:10+02:00
         end_datetime: 2023-05-19T14:30+02:00
         talk_title: "Lightning talks"
         service_icon: "bolt"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2023-05-19T16:30+02:00
-        end_datetime: 2023-05-19T17:00+02:00
+        start_datetime: 2023-05-19T16:10+02:00
+        end_datetime: 2023-05-19T16:40+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
 
       the-invisible-elephant-in-the-room:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-19T09:30+02:00
-        end_datetime: 2023-05-19T10:15+02:00
+        start_datetime: 2023-05-19T09:35+02:00
+        end_datetime: 2023-05-19T10:20+02:00
         talk_title: "The invisible elephant in the room"
         talk_description: "We've been talking about diversity and inclusion in our industry for some time now and most of us have at least a general idea of the issues at stake. But we sometimes forget about one of the aspects of diversity: disability. Not disability at a whole though, I'd say there has been quite an interest about accessibility and how to make our products  better for our disabled users. But we almost never talk about disability  in our industry.  Many of us tech workers have disabilities  and/or chronic illnesses that impact our daily lives. Yet, most of the  tech industry can't seem to see us. It's always \"on friday we go  running\" or \"we play soccer as a team\" or \"our team building week will  make us do many physical stuff !\"... And disabled people get left  behind. And it's even worst when our disabilities are invisible, as our  coworkers and managers have even more issues to empathize with what we  are living (the little bits we actually share about it).  So  today I'd like to take some of your time to talk about the invisible  elephant in the room : disability and how so many of our work culture  makes the environment toxic for disabled workers."
         talk_video_url:
@@ -373,8 +376,8 @@ days:
       theory-of-programming-packaging-principles:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T10:15+02:00
-        end_datetime: 2023-05-19T10:45+02:00
+        start_datetime: 2023-05-19T10:20+02:00
+        end_datetime: 2023-05-19T10:50+02:00
         talk_title: "Theory of programming: packaging principles"
         talk_description: "Everyone knows SOLID programming principles, the essence of modern object-oriented programming. But there are additional higher-level principles coined by Robert C. Martin that help to determine and measure isolation boundaries between packages, modules, microservices etc. In this talk you’ll get into principles of package cohesion and coupling. We’ll highlight the shortcomings, tradeoffs and key points of usage and dive into D-metrics. After the talk you’ll add more tools that help you write better code and design better systems overall."
         talk_video_url:
@@ -383,8 +386,8 @@ days:
       phpunit-10:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T11:15+02:00
-        end_datetime: 2023-05-19T12:15+02:00
+        start_datetime: 2023-05-19T11:20+02:00
+        end_datetime: 2023-05-19T12:10+02:00
         talk_title: "PHPUnit 10"
         talk_description: "Version 10 is probably the biggest update so far for PHPUnit. Almost all internals of PHP's most widely used testing framework and test runner have undergone long overdue changes to improve the developer experience of those who work on PHPUnit. This presentation, however, focuses on the improvements that were made for those that write and run tests with PHPUnit every day. Join Sebastian Bergmann, creator, and maintainer of PHPUnit, to learn everything you need to know about PHPUnit 10. You will experience new features, big and small, in action and see how they can support you to effectively and efficiently test your software."
         talk_video_url:
@@ -393,8 +396,8 @@ days:
       from-domain-to-code-a-practical-approach:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T12:15+02:00
-        end_datetime: 2023-05-19T13:15+02:00
+        start_datetime: 2023-05-19T12:10+02:00
+        end_datetime: 2023-05-19T13:00+02:00
         talk_title: "From domain to code: a practical approach"
         talk_description: "Domain-driven design is not about how you code, but rather about how you communicate with other people and how you think about your domain. At a certain point, though, you'll be faced with the task of converting your nicely-mapped domain into an actual application: how do I do this? Where does that go? How do I keep these concerns separated? How do I implement a hexagonal architecture? Or CQRS? There is a huge number of small decisions you have to make, and their burden can soon become overwhelming. We'll face some of these issues together, make pragmatic choices, and in the end we should be confident in moving our focus back to what truly matters: the domain."
         talk_video_url:
@@ -404,7 +407,7 @@ days:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-05-19T14:30+02:00
-        end_datetime: 2023-05-19T15:30+02:00
+        end_datetime: 2023-05-19T15:20+02:00
         talk_title: "Managers under scrutiny: 5 ways to kill your team´s productivity unintentionally"
         talk_description: "Productivity is one of the magic words in today´s business. Hence being more productive does neither mean working more nor harder; it is about working smarter! Therefore, we need to use our limited time and energy for the right things to do. Most people will call it time management, but it is more about self-management. But what if team members try their best to manage themselves to increase productivity, and then a manager wastes their time - with good intentions but a worse outcome? This talk will show five real-life examples from the “manager´s wilderness” and their impact on the team. Together we will discover that such managerial behavior is not a trivial offense but has lasting effects on the team, productivity, quality, culture, and the manager him-/herself. We will also take a closer look at the reasons for this behavior. And, of course, ideas on how managers and teams can avoid these pitfalls will be presented. We will also learn how managers can become enablers for better team self-management and promoters of self-care. This new behavior can be the game changer and help managers create the proper framework for greater productivity - without overburdening the team members and themselves. This presentation deals with a well-known but homemade issue. We all have a big problem: too much work for too little time! This overload leads to too much cognitive load, leading to demotivation, illness, poor quality, and psychological problems. Each of these outcomes is bad for both: people and companies. With the most respectful interpretation, I assume that no manager/leader wants to harm their teams. But even with good intentions, managers sometimes behave in ways that waste members' time - time that none of us have. And this is a widespread phenomenon. And even if managers don't fall into this trap, they should become promoters and coaches of self and time management - which at the very least, means setting a good example for the team."
         talk_video_url:
@@ -413,8 +416,8 @@ days:
       php-type-system-dissected:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T15:30+02:00
-        end_datetime: 2023-05-19T16:30+02:00
+        start_datetime: 2023-05-19T15:20+02:00
+        end_datetime: 2023-05-19T16:10+02:00
         talk_title: "PHP's type system dissected"
         talk_description: "PHP has added more and more types in the last couple of versions. But what is the meaning of a type, a type system, and a subtyping relation? In this talk, we will explain those words, and see what comprises the PHP type system, how it checks for types, how it uses and implements Liskov's Subtitution Principle (LSP) for it's subtyping relation, and how the strict_type declare affects PHP's type system. "
         talk_video_url:
@@ -423,8 +426,8 @@ days:
       an-elderly-software-developer-long-journey-through-technology:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2023-05-19T17:00+02:00
-        end_datetime: 2023-05-19T17:45+02:00
+        start_datetime: 2023-05-19T16:40+02:00
+        end_datetime: 2023-05-19T17:25+02:00
         talk_title: "An Elderly Software Developer’s Long Journey through Technology"
         talk_description: "Forty years in Software development is a long time; thirty-five years writing open source software is a long time; nearly thirty years writing software for the WorldWideWeb is a long time. You don't write software for that long without making mistakes, and without learning a few lessons along the way. So follow me on a high-speed summary of his life in software and open source development; some of the advances in technology that have occurred in that period; and some of the lessons that I've learned in that time."
         talk_video_url:
