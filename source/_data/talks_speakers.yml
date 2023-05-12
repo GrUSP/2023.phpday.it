@@ -103,15 +103,6 @@ speaker_11: &jamestitcumb
   speaker_twitter_url: "https://twitter.com/asgrim"
   speaker_github_url: "https://github.com/asgrim"
   speaker_linkedin_url: "https://www.linkedin.com/in/jamestitcumb/"
-speaker_12: &TBD
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename:
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_twitter_url: ""
-  speaker_github_url: ""
-  speaker_linkedin_url: ""
 speaker_13: &sabinewojcieszak
   speaker_in_speaker_lists: true
   speaker_name: Sabine Wojcieszak
@@ -160,7 +151,6 @@ speakers:
   speaker_9: *garyhockin
   speaker_10: *ondrejmirtes
   speaker_11: *jamestitcumb
-  # speaker_12: *TBD
   speaker_13: *sabinewojcieszak
   speaker_14: *enricozimuel
   speaker_15: *claudiozizza
@@ -247,16 +237,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *ondrejmirtes
-      TBD:
+      chatgpt-elasticsearch:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-05-18T10:30+02:00
         end_datetime: 2023-05-18T11:00+02:00
-        talk_title: "TBD"
-        talk_description: ""
+        talk_title: "ChatGPT: a use case to query Elasticsearch using natural language in PHP"
+        talk_description: "In this talk we will show an experimental project to query Elasticsearch in natural language using PHP. We will show a simple approach for building a prompt for translating an answer into an Elasticsearch DSL query and execute it to return the results from Elasticsearch."
         talk_video_url:
         speakers:
-          speaker_1: *TBD
+          speaker_1: *enricozimuel
       php-8.2-just-upgrade-and-go:
         item_type: "talk"
         track: *track_1
