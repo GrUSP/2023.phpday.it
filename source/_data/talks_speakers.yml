@@ -257,16 +257,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *arneblankerts
-      monitoring-a-php-application-with-opentelemetry:
+      managers-under-scrutiny-5-ways-to-kill-your-team-productivity-unintentionally:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-05-18T12:20+02:00
         end_datetime: 2023-05-18T13:10+02:00
-        talk_title: "Monitoring a PHP application with OpenTelemetry"
-        talk_description: "Is your application observable? This is a question that starts to be relevant as the complexity of an application grows. To be able to monitor and observe what's going on at run-time is a crucial aspect for debugging issues and  improving performance. In this talk we will present how to monitor a PHP application using OpenTelemetry. OpenTelemetry is an open source project incubated by Cloud Native Computing Foundation that allows developers to use a common standard to observe and collect metrics  from any running applications. It provides a set of tools, APIs, and SDKs for many languages. In this talk we will present OpenTelemetry for PHP showing how to use the automatic and manual instrumentation tools for monitoring any application at runtime."
+        talk_title: "Managers under scrutiny: 5 ways to kill your team´s productivity unintentionally"
+        talk_description: "Productivity is one of the magic words in today´s business. Hence being more productive does neither mean working more nor harder; it is about working smarter! Therefore, we need to use our limited time and energy for the right things to do. Most people will call it time management, but it is more about self-management. But what if team members try their best to manage themselves to increase productivity, and then a manager wastes their time - with good intentions but a worse outcome? This talk will show five real-life examples from the “manager´s wilderness” and their impact on the team. Together we will discover that such managerial behavior is not a trivial offense but has lasting effects on the team, productivity, quality, culture, and the manager him-/herself. We will also take a closer look at the reasons for this behavior. And, of course, ideas on how managers and teams can avoid these pitfalls will be presented. We will also learn how managers can become enablers for better team self-management and promoters of self-care. This new behavior can be the game changer and help managers create the proper framework for greater productivity - without overburdening the team members and themselves. This presentation deals with a well-known but homemade issue. We all have a big problem: too much work for too little time! This overload leads to too much cognitive load, leading to demotivation, illness, poor quality, and psychological problems. Each of these outcomes is bad for both: people and companies. With the most respectful interpretation, I assume that no manager/leader wants to harm their teams. But even with good intentions, managers sometimes behave in ways that waste members' time - time that none of us have. And this is a widespread phenomenon. And even if managers don't fall into this trap, they should become promoters and coaches of self and time management - which at the very least, means setting a good example for the team."
         talk_video_url:
         speakers:
-          speaker_1: *enricozimuel
+          speaker_1: *sabinewojcieszak
       schrodinger-sql-the-sql-inside-the-orm-builder-box:
         item_type: "talk"
         track: *track_1
@@ -393,16 +393,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *davideborsatto
-      managers-under-scrutiny-5-ways-to-kill-your-team-productivity-unintentionally:
+      monitoring-a-php-application-with-opentelemetry:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-05-19T14:30+02:00
         end_datetime: 2023-05-19T15:20+02:00
-        talk_title: "Managers under scrutiny: 5 ways to kill your team´s productivity unintentionally"
-        talk_description: "Productivity is one of the magic words in today´s business. Hence being more productive does neither mean working more nor harder; it is about working smarter! Therefore, we need to use our limited time and energy for the right things to do. Most people will call it time management, but it is more about self-management. But what if team members try their best to manage themselves to increase productivity, and then a manager wastes their time - with good intentions but a worse outcome? This talk will show five real-life examples from the “manager´s wilderness” and their impact on the team. Together we will discover that such managerial behavior is not a trivial offense but has lasting effects on the team, productivity, quality, culture, and the manager him-/herself. We will also take a closer look at the reasons for this behavior. And, of course, ideas on how managers and teams can avoid these pitfalls will be presented. We will also learn how managers can become enablers for better team self-management and promoters of self-care. This new behavior can be the game changer and help managers create the proper framework for greater productivity - without overburdening the team members and themselves. This presentation deals with a well-known but homemade issue. We all have a big problem: too much work for too little time! This overload leads to too much cognitive load, leading to demotivation, illness, poor quality, and psychological problems. Each of these outcomes is bad for both: people and companies. With the most respectful interpretation, I assume that no manager/leader wants to harm their teams. But even with good intentions, managers sometimes behave in ways that waste members' time - time that none of us have. And this is a widespread phenomenon. And even if managers don't fall into this trap, they should become promoters and coaches of self and time management - which at the very least, means setting a good example for the team."
+        talk_title: "Monitoring a PHP application with OpenTelemetry"
+        talk_description: "Is your application observable? This is a question that starts to be relevant as the complexity of an application grows. To be able to monitor and observe what's going on at run-time is a crucial aspect for debugging issues and  improving performance. In this talk we will present how to monitor a PHP application using OpenTelemetry. OpenTelemetry is an open source project incubated by Cloud Native Computing Foundation that allows developers to use a common standard to observe and collect metrics  from any running applications. It provides a set of tools, APIs, and SDKs for many languages. In this talk we will present OpenTelemetry for PHP showing how to use the automatic and manual instrumentation tools for monitoring any application at runtime."
         talk_video_url:
         speakers:
-          speaker_1: *sabinewojcieszak
+          speaker_1: *enricozimuel
       php-type-system-dissected:
         item_type: "talk"
         track: *track_1
