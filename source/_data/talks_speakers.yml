@@ -76,15 +76,15 @@ speaker_8: &alexandermakarov
   speaker_twitter_url: "https://twitter.com/sam_dark"
   speaker_github_url: "https://github.com/samdark"
   speaker_linkedin_url: "https://www.linkedin.com/in/makarov/"
-speaker_9: &magalimilbergue
+speaker_9: &garyhockin
   speaker_in_speaker_lists: true
-  speaker_name: Magali Milbergue
-  speaker_pic_filename: magali-milbergue.png
-  speaker_role: "Web creator and educator @ self-employed"
-  speaker_bio: "After a decade in social work, Magali decided to change course and became a web developer. She tries to find a delicate balance between the technical aspects of the job (fun !), the creativity (fun too !) and trying to follow her ethics and change the culture of the industry (the less fun aspects of it anyway) by being an advocate and an activist. "
-  speaker_twitter_url: "https://twitter.com/MagaliMilbergue"
+  speaker_name: Gary Hockin
+  speaker_pic_filename: gary-hockin.jpg
+  speaker_role: "Associate @ Roave"
+  speaker_bio: "Gary Hockin helps businesses build with confidence as an Associate at Roave. He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to Laminas and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least \"competent\" standard with over 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want."
+  speaker_twitter_url: "https://twitter.com/GeeH"
   speaker_github_url: ""
-  speaker_linkedin_url: "https://www.linkedin.com/in/magali-milbergue/"
+  speaker_linkedin_url: ""
 speaker_10: &ondrejmirtes
   speaker_in_speaker_lists: true
   speaker_name: Ondřej Mirtes
@@ -157,7 +157,7 @@ speakers:
   speaker_6: *femkebuijs
   speaker_7: *ivolukac
   speaker_8: *alexandermakarov
-  speaker_9: *magalimilbergue
+  speaker_9: *garyhockin
   speaker_10: *ondrejmirtes
   speaker_11: *jamestitcumb
   # speaker_12: *TBD
@@ -326,12 +326,12 @@ days:
       check-in:
         item_type: "service"
         start_datetime: 2023-05-19T08:30+02:00
-        end_datetime: 2023-05-19T09:25+02:00
+        end_datetime: 2023-05-19T09:20+02:00
         talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
-        start_datetime: 2023-05-19T09:25+02:00
-        end_datetime: 2023-05-19T09:35+02:00
+        start_datetime: 2023-05-19T09:20+02:00
+        end_datetime: 2023-05-19T09:30+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
@@ -363,16 +363,16 @@ days:
         talk_title: "Coffee break"
         service_icon: "coffee"
 
-      the-invisible-elephant-in-the-room:
-        item_type: "keynote"
+      step-into-debugging:
+        item_type: "talk"
         track: *track_1
-        start_datetime: 2023-05-19T09:35+02:00
+        start_datetime: 2023-05-19T09:30+02:00
         end_datetime: 2023-05-19T10:20+02:00
-        talk_title: "The invisible elephant in the room"
-        talk_description: "We've been talking about diversity and inclusion in our industry for some time now and most of us have at least a general idea of the issues at stake. But we sometimes forget about one of the aspects of diversity: disability. Not disability at a whole though, I'd say there has been quite an interest about accessibility and how to make our products  better for our disabled users. But we almost never talk about disability  in our industry.  Many of us tech workers have disabilities  and/or chronic illnesses that impact our daily lives. Yet, most of the  tech industry can't seem to see us. It's always \"on friday we go  running\" or \"we play soccer as a team\" or \"our team building week will  make us do many physical stuff !\"... And disabled people get left  behind. And it's even worst when our disabilities are invisible, as our  coworkers and managers have even more issues to empathize with what we  are living (the little bits we actually share about it).  So  today I'd like to take some of your time to talk about the invisible  elephant in the room : disability and how so many of our work culture  makes the environment toxic for disabled workers."
+        talk_title: "Step into debugging"
+        talk_description: "While var_dump driven development is great when you're starting, at some point every developer wants more. Step debugging is the answer. In this session we'll cover the fundamentals of installing and configuring Xdebug, configuring PhpStorm to listen to Xdebug, and then actually step debugging some scripts to find our problems. Step debugging PHP is an incredibly easy and powerful tool when you know how!"
         talk_video_url:
         speakers:
-          speaker_1: *magalimilbergue
+          speaker_1: *garyhockin
       theory-of-programming-packaging-principles:
         item_type: "talk"
         track: *track_1
